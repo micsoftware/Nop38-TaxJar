@@ -1,0 +1,9 @@
+﻿Group: Tax providers
+FriendlyName: TaxJar tax rate provider
+SystemName: micsoftware.Tax.TaxJar
+Version: 0.91
+SupportedVersions: 3.80
+Author: MiC Software
+DisplayOrder: 1
+FileName: Nop.Plugin.Tax.TaxJar.dll
+Description: This plugin allows getting tax rates by using TaxJar service (Inspired by nopcommerce team)

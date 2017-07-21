@@ -1,0 +1,86 @@
+﻿@model Nop.Plugin.Tax.TaxJar.Models.TaxTaxJarModel
+@using Nop.Web.Framework;
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.NopLabelFor(model => model.ApiToken)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.NopEditorFor(model => model.ApiToken)
+                        @Html.ValidationMessageFor(model => model.ApiToken)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-9 col-md-offset-3">
+                        <input type="submit" name="save" class="btn btn-primary" value="@T("Admin.Common.Save")"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.NopLabelFor(model => model.StateProviceTable)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.NopTextAreaFor(model => model.StateProviceTable)
+                        @Html.ValidationMessageFor(model => model.StateProviceTable)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-9 col-md-offset-3">
+                        <input type="submit" name="stateprovince" class="btn btn-primary" value="@T("Admin.Common.Save")" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.NopLabelFor(model => model.TestAddress.CountryId)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.NopDropDownListFor(model => model.TestAddress.CountryId, Model.TestAddress.AvailableCountries)
+                        @Html.ValidationMessageFor(model => model.TestAddress.CountryId)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.NopLabelFor(model => model.TestAddress.City)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.NopEditorFor(model => model.TestAddress.City)
+                        @Html.ValidationMessageFor(model => model.TestAddress.City)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.NopLabelFor(model => model.TestAddress.Zip)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.NopEditorFor(model => model.TestAddress.Zip)
+                        @Html.ValidationMessageFor(model => model.TestAddress.Zip)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-9 col-md-offset-3">
+                        <input type="submit" name="test" class="btn btn-primary" value="@T("Plugins.Tax.TaxJar.Testing")" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12" style="white-space: pre-line">
+                        @Html.Raw(Model.TestingResult)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

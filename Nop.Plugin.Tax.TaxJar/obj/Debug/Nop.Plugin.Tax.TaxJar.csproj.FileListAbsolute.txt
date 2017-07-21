@@ -1,0 +1,10 @@
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Tax.TaxJar\Description.txt
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Tax.TaxJar\web.config
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Tax.TaxJar\Views\TaxTaxJar\Configure.cshtml
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Tax.TaxJar\logo.png
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Tax.TaxJar\Nop.Plugin.Tax.TaxJar.dll.config
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Tax.TaxJar\Nop.Plugin.Tax.TaxJar.dll
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Tax.TaxJar\Nop.Plugin.Tax.TaxJar.pdb
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Plugins\Nop.Plugin.Tax.TaxJar\obj\Debug\Nop.Plugin.Tax.TaxJar.csprojResolveAssemblyReference.cache
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Plugins\Nop.Plugin.Tax.TaxJar\obj\Debug\Nop.Plugin.Tax.TaxJar.dll
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Plugins\Nop.Plugin.Tax.TaxJar\obj\Debug\Nop.Plugin.Tax.TaxJar.pdb
